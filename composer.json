@@ -19,7 +19,7 @@
 		  "mysqliDatabase.php",
 		  "pdoDatabase.php",
 		  "wbDatabase.php",
-		  "wbMenuItem.php",
+		  "wbMenuItem.php"
 	      ]
       }
 	
