@@ -1,2 +1,2 @@
 # workbench-db
-Database entity objects for the workbench framework.
+Database objects and database entity objects for the workbench framework.
