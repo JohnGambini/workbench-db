@@ -18,10 +18,8 @@
 		  "dbUser.php",
 		  "mysqliDatabase.php",
 		  "pdoDatabase.php",
-		  "wbDataArrays.php",
 		  "wbDatabase.php",
 		  "wbMenuItem.php",
-		  "wbSql.php"
 	      ]
       }
 	
