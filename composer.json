@@ -11,17 +11,21 @@
 		}
 	],
   
-      "autoload" : {
-	      "classmap": [
-		  "dbContent.php",
-		  "dbObject.php",
-		  "dbUser.php",
-		  "mysqliDatabase.php",
-		  "pdoDatabase.php",
-		  "wbDatabase.php",
-		  "wbMenuItem.php"
-	      ]
-      }
+	"autoload" : {
+		"classmap": [
+		"dbContent.php",
+		"dbObject.php",
+		"dbUser.php",
+		"mysqliDatabase.php",
+		"pdoDatabase.php",
+		"wbDatabase.php",
+		"wbMenuItem.php"
+		]
+	},
+      
+	"require": {
+		"workbench/util": "0.4.07"
+	}
+}      
 	
-}
 
