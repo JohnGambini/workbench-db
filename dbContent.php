@@ -1,4 +1,7 @@
 <?php
+
+use workbench\utils\StringUtils;
+
 /*--------------------------------------------------------------------------------------------
  * dbContent.php
  *
@@ -260,12 +263,12 @@
 	public function set_permalink($permalink, $subsiteName){
 
 		//strip off get map
-		$this->permalink = str_concat_at($permalink, '?');
+		$this->permalink = StringUtils::str_concat_at($permalink, '?');
 		
 		//if there's a subsite name, strip it off
 		$replace = "";
 		$one = 1;
-		$this->permalink =  str_replace_first($subsiteName,$replace,$this->permalink,$one);
+		$this->permalink =  StringUtils::str_replace_first($subsiteName,$replace,$this->permalink,$one);
 		
 		if($this->permalink == "/")
 			$this->permalink = "/en";
