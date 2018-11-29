@@ -11,19 +11,19 @@
 		}
 	],
   
-	"autoload" : {
-      "classmap": [
-          "dbContent.php",
-          "dbObject.php",
-          "dbUser",
-          "mysqliDatabase.php",
-          "pdoDatabase.php",
-          "wbDataArrays.php",
-          "wbDatabase.php",
-          "wbMenuItem.php",
-          "wbSql.php"
-      ]
-	}
+      "autoload" : {
+	      "classmap": [
+		  "dbContent.php",
+		  "dbObject.php",
+		  "dbUser",
+		  "mysqliDatabase.php",
+		  "pdoDatabase.php",
+		  "wbDataArrays.php",
+		  "wbDatabase.php",
+		  "wbMenuItem.php",
+		  "wbSql.php"
+	      ]
+      }
 	
 }
 
