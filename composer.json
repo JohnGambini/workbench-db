@@ -1,2 +1,29 @@
 {
+	"name" : "workbench/db",
+	"type" : "package",
+	"description" : "Database entity objects for the Workbench framework.",
+	"keywords" : [],
+	"homepage" : "https://plus.google.com/+JohnGambini",
+	"license" : "GPL-3.0-or-later",
+	"authors" : [{
+			"name" : "John Gambini",
+			"role" : ""
+		}
+	],
+  
+	"autoload" : {
+      "classmap": [
+          "dbContent.php",
+          "dbObject.php",
+          "dbUser",
+          "mysqliDatabase.php",
+          "pdoDatabase.php",
+          "wbDataArrays.php",
+          "wbDatabase.php",
+          "wbMenuItem.php",
+          "wbSql.php"
+      ]
+	}
+	
 }
+
