@@ -15,7 +15,7 @@
 	      "classmap": [
 		  "dbContent.php",
 		  "dbObject.php",
-		  "dbUser",
+		  "dbUser.php",
 		  "mysqliDatabase.php",
 		  "pdoDatabase.php",
 		  "wbDataArrays.php",
