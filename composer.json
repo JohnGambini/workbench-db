@@ -22,11 +22,8 @@
 		"wbDatabase.php",
 		"wbMenuItem.php"
 		]
-	},
-      
-	"require": {
-		"workbench/util": "0.4.07"
 	}
+      
 }      
 	
 
