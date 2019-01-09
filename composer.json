@@ -18,6 +18,7 @@
 		"dbUser.php",
 		"mysqliDatabase.php",
 		"pdoDatabase.php",
+		"StringUtils.php",
 		"wbDatabase.php",
 		"wbMenuItem.php"
 		]
